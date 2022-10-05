@@ -1,0 +1,169 @@
+/*----------------Font this works only in internet required-------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+/*-----------------------------------------------------------------------------------------*/
+
+body
+{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+@media only screen and (max-width:1200px){body{overflow-y: scroll;}}
+.one
+{
+    width: 580px;
+    height: 580px;        
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: gold;
+    margin-left: -300px;
+    margin-top:10px;
+    border-left:5px solid gold;    
+    border-right:5px solid gold;    
+    animation: rotate 40s linear infinite;
+}
+
+.one:hover {animation-play-state: paused;}
+
+@keyframes rotate
+{
+    0%{transform: rotate(0deg);}    
+    100%{transform: rotate(-360deg);}
+}
+
+.one .sub
+{
+    margin-top:6.5em;    
+    width:600px;
+    height:100vh;
+    text-align: center;        
+}
+
+.one i 
+{    
+    font-size: 30px;        
+    text-align: center; 
+    color: black;   
+    padding:15px;          
+    border-radius: 50%;
+    position: absolute; 
+    animation: rotate-app 6s linear infinite;         
+}
+  .one i:hover {
+    animation-play-state: paused;
+  }
+
+@keyframes rotate-app
+{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(180deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.gitframe{border:5px solid #ffd700;}
+
+.fa {background-color: yellow;}
+
+.fa-youtube:hover{background-color:red;color:white;}  
+.fa-whatsapp:hover{background-color: #25D366;color:white;}
+.fa-instagram:hover{background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);color:white;}
+.fa-git:hover{background-color: black;color:white;}
+.fa-telegram:hover{background-color: #34B7F1;color:white;}
+.fa-codepen:hover{background-color:white;color: black;}
+.fa-phone:hover{background-color: white;color:black;}
+.fa-amazon:hover{background-color: white;color:#F58529;}
+.fa-linkedin:hover{background-color: white;color:blue;}
+.fa-calculator:hover{background-color: white;color:black;}
+.fa-home:hover{background-color: black;color:gold;}
+.fa-opera:hover{background-color: white;color:#b30417;}
+
+.s2{margin-left: 20em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s3{margin-top:6em;margin-left: 29em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s4{margin-top:6em;margin-left: 29em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s5{margin-top:6em;margin-left: 23em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s6{margin-top:4em;margin-left: 10em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s7{margin-top:0.7em;margin-right:4.3em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s8{margin-top:-3em;margin-right: 20em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s9{margin-top:-7em;margin-right: 35em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s10{margin-top:-10em;margin-right:41em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s11{margin-top:-12em;margin-right:38em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s12{margin-top:-9em;margin-right:23em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+.s13{margin-top:-2.5em;box-shadow:0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);}
+
+.profile
+{        
+    width: 150px;
+    object-position: center;
+    height: 150px;                
+}
+
+.icon
+{
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+    border-right:5px solid gold;
+    border-left:5px solid gold;
+    border-radius:50%;
+    overflow: hidden;        
+    margin-top:1.5em;
+    width: 150px;
+    height: 150px;           
+ 
+}
+.show
+{    
+    
+    position: absolute;
+    top:200px;   
+    left: 0px;
+    
+}
+
+.name
+{
+    font-family: 'Secular One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.jobtitle
+{
+    font-size:19px;
+    font-weight: bold;    
+}
+.qualif
+{
+    float: right;
+    margin-top:-2em;    
+    margin-right: 20%;
+}
+@media only screen (max-width:600px){.qualif{margin-right:2%;}}
+.fa-graduation-cap
+{
+    font-size: 19px;
+    padding: 3px;
+    background-color: white;
+}
+.gcap2
+{
+    font-size: 17px;    
+    font-family: 'Ropa Sans', sans-serif;
+}
+.para1
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;    
+}
+.para1a
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    text-indent: 2em;
+    word-spacing: 1px;
+    text-align: justify;
+    padding-right: 15px;
+}
